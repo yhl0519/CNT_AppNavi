@@ -1,3 +1,5 @@
+# --- 깃허브에서 node 설정으로 자동생성 ---
+
 # Logs
 logs
 *.log
@@ -102,3 +104,43 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+
+# --- 주주클럽에 추가로 있는거 ---
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+Pods/
+
+# heap profiling output file 이라는데.. 용량 너무큼..
+*.hprof
+
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+*.iml
+
+# OSX
+#
+.DS_Store
