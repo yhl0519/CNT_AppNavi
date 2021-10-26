@@ -8,7 +8,6 @@ import Menu4 from "../Screen/Menu/Menu4";
 const Stack = createStackNavigator();
 
 const MenuStack = () => {
-  console.log("≈");
   return (
     <Stack.Navigator>
       <Stack.Screen name="Menu1" component={Menu1} />

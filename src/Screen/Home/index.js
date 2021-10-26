@@ -1,10 +1,16 @@
 import React from "react";
-import { Container, ScreenText } from "../../Style";
+import { Container, ScreenText, GoDetailBtn } from "../../Style";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
     <Container>
       <ScreenText>Home</ScreenText>
+      <GoDetailBtn
+        title="Go Home Detail"
+        onPress={() =>
+          navigation.navigate("HomeStack", { screen: "HomeDetail" })
+        }
+      />
     </Container>
   );
 };

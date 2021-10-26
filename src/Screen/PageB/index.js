@@ -1,10 +1,16 @@
 import React from "react";
-import { Container, ScreenText } from "../../Style";
+import { Container, ScreenText, GoDetailBtn } from "../../Style";
 
-const PageB = () => {
+const PageB = ({ navigation }) => {
   return (
     <Container>
       <ScreenText>PageB</ScreenText>
+      <GoDetailBtn
+        title="Go PageB Detail"
+        onPress={() =>
+          navigation.navigate("PageBStack", { screen: "PageBDetail" })
+        }
+      />
     </Container>
   );
 };
