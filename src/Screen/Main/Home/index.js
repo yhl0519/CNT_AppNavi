@@ -1,11 +1,12 @@
 import React from "react";
-import { Container, ScreenText, GoDetailBtn } from "../../../Style";
+import { Button } from "react-native";
+import { Container, ScreenText } from "../../../Style";
 
 const Home = ({ navigation }) => {
   return (
     <Container>
       <ScreenText>Home</ScreenText>
-      <GoDetailBtn
+      <Button
         title="Go Home Detail"
         onPress={() =>
           navigation.navigate("HomeStack", { screen: "HomeDetail" })

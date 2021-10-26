@@ -1,11 +1,12 @@
 import React from "react";
-import { Container, ScreenText, GoDetailBtn } from "../../Style";
+import { Button } from "react-native";
+import { Container, ScreenText } from "../../Style";
 
 const Login = ({ navigation }) => {
   return (
     <Container>
       <ScreenText>Login</ScreenText>
-      <GoDetailBtn
+      <Button
         title="Login"
         onPress={() => navigation.replace("MainStack")}
       />

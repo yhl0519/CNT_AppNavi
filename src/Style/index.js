@@ -10,7 +10,3 @@ export const ScreenText = styled.Text`
   font-size: 30px;
 `;
 
-export const GoDetailBtn = styled.Button`
-  /* font-size: 30px; */
-`;
-

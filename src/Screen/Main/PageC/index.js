@@ -1,11 +1,12 @@
 import React from "react";
-import { Container, ScreenText, GoDetailBtn } from "../../../Style";
+import { Button } from "react-native";
+import { Container, ScreenText } from "../../../Style";
 
 const PageC = ({ navigation }) => {
   return (
     <Container>
       <ScreenText>PageC</ScreenText>
-      <GoDetailBtn
+      <Button
         title="Go PageC Detail"
         onPress={() =>
           navigation.navigate("PageCStack", { screen: "PageCDetail" })
