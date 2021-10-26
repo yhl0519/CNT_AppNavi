@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ScreenText, GoDetailBtn } from "../../Style";
+import { Container, ScreenText, GoDetailBtn } from "../../../Style";
 
 const PageC = ({ navigation }) => {
   return (

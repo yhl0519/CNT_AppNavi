@@ -1,9 +1,9 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Menu1 from "../Screen/Menu/Menu1";
-import Menu2 from "../Screen/Menu/Menu2";
-import Menu3 from "../Screen/Menu/Menu3";
-import Menu4 from "../Screen/Menu/Menu4";
+import Menu1 from "../../Screen/Main/Menu/Menu1";
+import Menu2 from "../../Screen/Main/Menu/Menu2";
+import Menu3 from "../../Screen/Main/Menu/Menu3";
+import Menu4 from "../../Screen/Main/Menu/Menu4";
 
 const Stack = createStackNavigator();
 

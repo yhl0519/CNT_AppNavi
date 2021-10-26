@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ScreenText } from "../../Style";
+import { Container, ScreenText } from "../../../Style";
 
 const PageCDetail = () => {
   return (

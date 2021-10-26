@@ -1,7 +1,7 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import PageC from "../Screen/PageC";
-import PageCDetail from "../Screen/PageC/PageCDetail";
+import PageC from "../../Screen/Main/PageC"
+import PageCDetail from "../../Screen/Main/PageC/PageCDetail";
 
 const Stack = createStackNavigator();
 

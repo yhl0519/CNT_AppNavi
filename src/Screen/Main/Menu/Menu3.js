@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ScreenText } from "../../Style";
+import { Container, ScreenText } from "../../../Style";
 
 const Menu3 = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { TouchableOpacity } from "react-native";
 import Modal from "react-native-modal";
-import { Container, ScreenText } from "../Style";
+import { Container, ScreenText } from "../../Style";
 import styled from "styled-components/native";
 
 export const ModalContainer = styled(Modal)`
@@ -22,6 +22,7 @@ const Menu = ({ navigation, isMenuOpen, setMenuOpen }) => {
   return (
     <ModalContainer
       isVisible={isMenuOpen}
+    //   animationIn="slideInLeft" // 모달 왼쪽에서 슬라이드 할 때 사용
       onBackdropPress={() => setMenuOpen(false)}
     >
       <Container>
